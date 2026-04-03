@@ -1,0 +1,51 @@
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+*.pem
+!*.pem.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Node / frontend
+node_modules/
+frontend/dist/
+*.tsbuildinfo
+*.log
+npm-debug.log*
+
+# Media / ingest output (local only; HLS uses .ts segments — keep them out via dirs)
+media/
+out/
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Docker
+.docker/
+
+# Coverage / test
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+
+# Misc
+*.bak
+.cache/

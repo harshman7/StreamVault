@@ -1,0 +1,41 @@
+:root {
+  color-scheme: dark;
+  --bg: #0a0a0c;
+  --surface: #12121a;
+  --border: #2a2a36;
+  --text: #e8e8ed;
+  --muted: #8b8b9a;
+  --accent: #6ee7ff;
+  --accent-dim: #2dd4bf;
+  font-family: "Inter", system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: radial-gradient(ellipse 80% 50% at 50% -20%, #1a2535 0%, var(--bg) 55%);
+}
+
+code,
+.mono {
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#root {
+  min-height: 100vh;
+}
