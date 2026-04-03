@@ -107,10 +107,4 @@ When `CLOUDFRONT_DOMAIN`, `CLOUDFRONT_KEY_PAIR_ID`, and `CLOUDFRONT_PRIVATE_KEY_
 - `db/init.sql` — schema
 - `infra/` — S3 / CloudFront helpers
 
-## 📋 Resume Bullets
 
-• Built a full-stack OTT video streaming platform (StreamVault) featuring FFmpeg-based HLS transcoding into 3 adaptive bitrate renditions, AES-128 segment encryption simulating DRM key delivery (Widevine/Fairplay pattern), and a FastAPI manifest server backed by PostgreSQL.
-
-• Architected CDN delivery using AWS S3 + CloudFront with signed URL generation, mirroring production video pipeline patterns used in platforms like Crave and Disney+.
-
-• Integrated Shaka Player on a React frontend with adaptive quality selection, buffering state management, and a custom DRM key URI handler — covering the full video delivery stack from ingest to playback.
